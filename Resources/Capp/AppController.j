@@ -7,17 +7,15 @@
  */
 
 @import <Foundation/CPObject.j>
-@import "TiCapp.j"
+@import <TICapp/TICapp.j>
 
-@implementation AppController : CPObject
+@implementation AppController : TIAppDelegate
 {
 }
 
 - (void)applicationDidFinishLaunching:(CPNotification)aNotification
 {
-	alert("hello there!");
-    [TiCapp TiCode:@"test" withData:[]];
-    alert(textArea);
+    [TICapp ]
 }
 
 @end
