@@ -1,0 +1,5 @@
+As of right now, Titanium and Cappuccino communication is available through [TICapp evalTitanium:(CPString)command]. The CPString is just any valid javascript that will be evaluated within the Titanium javascript file(s). To use this method you'll need to include TICapp.j like this: @import <TICapp/TICapp.j>
+
+In the long run, I'm looking to almost model the 'real' iPhone SDK in terms of the class structure, and the workflow. As of yet I've only created a few classes that will eventually define the model of the framework. For example, when the framework is almost complete you will be able to have your "AppController.j" file act as if the AppDelegate file in the iPhone SDK, and from there the rest of your classes will be "UIViewController" classes, as defined in the "Cappuccino-Extensions" Github repository.
+
+If you have any ideas, or just want to contribute to this, please do so, because this project will be huge over time.
