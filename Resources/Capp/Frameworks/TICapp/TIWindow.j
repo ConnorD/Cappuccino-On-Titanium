@@ -1,11 +1,16 @@
 @import "TICapp.j"
 
-@implementation TIUIObject : CPObject
+@implementation TIWindow : TICapp
 {
+    CPString varName;
 }
 
 - (void)addSubview:(TIView)view {
 	[TICapp evalTitanium:@""];
+}
+
+- (void)makeKeyAndVisible {
+    [TICapp evalTitanium:[CPString stringWithFormat:@"%@.open()", varName]]
 }
 
 @end

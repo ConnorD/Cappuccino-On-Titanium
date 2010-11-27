@@ -14,8 +14,7 @@
 }
 
 - (void)applicationDidFinishLaunching:(CPNotification)aNotification
-{
-    [TICapp ]
+{   
 }
 
 @end
