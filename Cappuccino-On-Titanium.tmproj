@@ -22,6 +22,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{10, 5}, {1069, 773}}</string>
+	<string>{{0, 5}, {1069, 773}}</string>
 </dict>
 </plist>
